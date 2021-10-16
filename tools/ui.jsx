@@ -698,7 +698,7 @@ function Balance({ walletAddress, chainId }) {
 
   return (
     <span style={{ marginRight: "var(--space-8)", whiteSpace: "nowrap" }}>
-      {ethers.utils.formatEther(balance).slice(0, 6)} ETH
+      {ethers.utils.formatEther(balance).slice(0, 6)} CELO
     </span>
   );
 }
